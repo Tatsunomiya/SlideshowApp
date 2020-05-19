@@ -55,7 +55,16 @@ class ViewController: UIViewController{
         timer.invalidate()
             
             playswitch = 0
+            
+            
+            if nextbutton2.isEnabled == false && backbutton2.isEnabled == false {
+            nextbutton2.isEnabled = true
+                backbutton2.isEnabled = true
+                
+                playstop.setTitle("再生", for: .normal)
 
+
+            }
         }
         
         
