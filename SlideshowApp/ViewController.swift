@@ -45,9 +45,18 @@ class ViewController: UIViewController{
         
       performSegue(withIdentifier:"imageview2", sender:images[imageIndex])
         
-        timer.invalidate()
-
         
+        if playswitch == 0 {
+            
+        } else {
+            
+        
+        
+        timer.invalidate()
+            
+            playswitch = 0
+
+        }
         
         
     }
