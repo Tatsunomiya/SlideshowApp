@@ -13,6 +13,10 @@
 		035A03B5246E6BB8005E795C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035A03B3246E6BB8005E795C /* Main.storyboard */; };
 		035A03B7246E6BC8005E795C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035A03B6246E6BC8005E795C /* Assets.xcassets */; };
 		035A03BA246E6BC8005E795C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035A03B8246E6BC8005E795C /* LaunchScreen.storyboard */; };
+		036D7BA52470AFA400B8B5CF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D7BA42470AFA400B8B5CF /* ImageViewController.swift */; };
+		036D7BA72472220600B8B5CF /* xbox.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 036D7BA62472220600B8B5CF /* xbox.jpg */; };
+		036D7BA9247224E400B8B5CF /* ps4.png in Resources */ = {isa = PBXBuildFile; fileRef = 036D7BA8247224E400B8B5CF /* ps4.png */; };
+		036D7BAB247224F600B8B5CF /* Wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 036D7BAA247224F600B8B5CF /* Wii.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		035A03B6246E6BC8005E795C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		035A03B9246E6BC8005E795C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		035A03BB246E6BC8005E795C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036D7BA42470AFA400B8B5CF /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		036D7BA62472220600B8B5CF /* xbox.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = xbox.jpg; path = ../../../Downloads/xbox.jpg; sourceTree = "<group>"; };
+		036D7BA8247224E400B8B5CF /* ps4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ps4.png; path = ../../../Downloads/ps4.png; sourceTree = "<group>"; };
+		036D7BAA247224F600B8B5CF /* Wii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Wii.png; path = ../../../Downloads/Wii.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +67,12 @@
 				035A03AD246E6BB8005E795C /* AppDelegate.swift */,
 				035A03AF246E6BB8005E795C /* SceneDelegate.swift */,
 				035A03B1246E6BB8005E795C /* ViewController.swift */,
+				036D7BA42470AFA400B8B5CF /* ImageViewController.swift */,
 				035A03B3246E6BB8005E795C /* Main.storyboard */,
 				035A03B6246E6BC8005E795C /* Assets.xcassets */,
+				036D7BAA247224F600B8B5CF /* Wii.png */,
+				036D7BA8247224E400B8B5CF /* ps4.png */,
+				036D7BA62472220600B8B5CF /* xbox.jpg */,
 				035A03B8246E6BC8005E795C /* LaunchScreen.storyboard */,
 				035A03BB246E6BC8005E795C /* Info.plist */,
 			);
@@ -125,7 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				036D7BA72472220600B8B5CF /* xbox.jpg in Resources */,
+				036D7BA9247224E400B8B5CF /* ps4.png in Resources */,
 				035A03BA246E6BC8005E795C /* LaunchScreen.storyboard in Resources */,
+				036D7BAB247224F600B8B5CF /* Wii.png in Resources */,
 				035A03B7246E6BC8005E795C /* Assets.xcassets in Resources */,
 				035A03B5246E6BB8005E795C /* Main.storyboard in Resources */,
 			);
@@ -140,6 +155,7 @@
 			files = (
 				035A03B2246E6BB8005E795C /* ViewController.swift in Sources */,
 				035A03AE246E6BB8005E795C /* AppDelegate.swift in Sources */,
+				036D7BA52470AFA400B8B5CF /* ImageViewController.swift in Sources */,
 				035A03B0246E6BB8005E795C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
