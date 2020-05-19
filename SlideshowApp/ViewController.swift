@@ -45,6 +45,11 @@ class ViewController: UIViewController{
         
       performSegue(withIdentifier:"imageview2", sender:images[imageIndex])
         
+        timer.invalidate()
+
+        
+        
+        
     }
     
     
